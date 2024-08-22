@@ -238,7 +238,7 @@ export const SideNav = () => {
                   fontWeight: 500,
                   opacity: 0.6,
                 }}>
-                Personal Information
+                Candidate Details
               </p>
             </div>
             <div
@@ -253,7 +253,7 @@ export const SideNav = () => {
                   fontWeight: 500,
                   opacity: 0.6,
                 }}>
-                Preference Form
+                My Job Preferences
               </p>
             </div>
             <div
@@ -458,7 +458,7 @@ export const SideNav = () => {
                 />
               </ListItemIcon>
               <ListItemText
-                primary={"Job"}
+                primary={"Jobs Portal"}
                 primaryTypographyProps={{
                   color: currentState.includes("job/") ? "#ffffff" : "#475467",
                   fontSize: 14,
