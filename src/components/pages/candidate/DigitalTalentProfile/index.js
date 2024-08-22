@@ -165,12 +165,12 @@ export const DigitalTalentProfile = () => {
             <div className="p-8">
               <div>
                 <p style={{ color: "#101828", fontWeight: 600, fontSize: 20 }}>
-                  Welcome to Our Talent Profile Creation
+                  Talent Profile Summary
                 </p>
-                <p style={{ color: "#475467", fontSize: 16 }}>
-                  Craft your personalized talent profile now and let your skills
-                  shine globally.
-                </p>
+                // <p style={{ color: "#475467", fontSize: 16 }}>
+                //   Craft your personalized talent profile now and let your skills
+                //   shine globally.
+                // </p>
                 <Card
                   sx={{
                     boxShadow: 0,
@@ -284,7 +284,7 @@ export const DigitalTalentProfile = () => {
                       </div>
                       <div className="w-full">
                         <p style={{ color: "#101828", fontSize: 14 }}>
-                          Profile completion
+                          Profile Completion
                         </p>
                         <Box
                           sx={{
@@ -361,7 +361,7 @@ export const DigitalTalentProfile = () => {
                                 fontSize: 14,
                                 fontWeight: 500,
                               }}>
-                              Percantage
+                              Percentage
                             </p>
                           </div>
                           {profileCompetition?.map((row, index) => {
@@ -413,7 +413,7 @@ export const DigitalTalentProfile = () => {
                       onClick={() => {
                         navigate("/candidate");
                       }}>
-                      Update DTP Description
+                      Update Digital Talent Profile (DTP)
                     </Button>
 
                     <Button
@@ -427,7 +427,7 @@ export const DigitalTalentProfile = () => {
                       onClick={() => {
                         navigate("/OutputofDigitalTalentProfile");
                       }}>
-                      Access DTP Description
+                      Access Digital Talent Profile(DTP)
                     </Button>
                   </div>
                 </Card>
