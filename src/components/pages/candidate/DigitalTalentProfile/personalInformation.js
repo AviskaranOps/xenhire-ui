@@ -455,7 +455,7 @@ export const PersonalInformation = () => {
             {/* file upload */}
             <div>
               <p style={{ color: "#101828", fontSize: 22, fontWeight: 600 }}>
-                Candidate’s Personal Detail Information
+                Candidate Details
               </p>
               <div className=" py-5">
                 <p style={{ color: "#475467", fontSize: 20, fontWeight: 500 }}>
