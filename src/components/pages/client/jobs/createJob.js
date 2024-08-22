@@ -754,12 +754,12 @@ export const CreateJob = () => {
             <div className="p-8">
               <div>
                 <p style={{ color: "#101828", fontWeight: 600, fontSize: 20 }}>
-                  Complete all steps to create a job
+                  Dashboard
                 </p>
-                <p style={{ color: "#475467", fontSize: 16 }}>
-                  Complete all the steps to generate a job offer for the
-                  candidate.
-                </p>
+                // <p style={{ color: "#475467", fontSize: 16 }}>
+                //   Complete all the steps to generate a job offer for the
+                //   candidate.
+                // </p>
                 <Card
                   sx={{ borderRadius: 4, padding: 2 }}
                   className="grid grid-cols-2 gap-8 border border-[#D3DFE7] mt-5 bg-[#FBFCFE]">
@@ -1034,17 +1034,17 @@ export const CreateJob = () => {
                         fontWeight: 600,
                         fontSize: 20,
                       }}>
-                      Complete all forms and assessments to begin
+                      Summary
                     </p>
-                    <p
-                      style={{
-                        color: "#475467",
-                        fontSize: 16,
-                        fontWeight: 500,
-                      }}>
-                      Please fill out all the necessary forms and complete the
-                      required assessments to get started
-                    </p>
+                    // <p
+                    //   style={{
+                    //     color: "#475467",
+                    //     fontSize: 16,
+                    //     fontWeight: 500,
+                    //   }}>
+                    //   Please fill out all the necessary forms and complete the
+                    //   required assessments to get started
+                    // </p>
                   </div>
                   <div>
                     <p
@@ -1796,14 +1796,14 @@ export const CreateJob = () => {
                           Candidate Details
                         </p>
 
-                        <p
-                          style={{
-                            color: "#475467",
-                            fontSize: 14,
-                            fontWeight: 400,
-                          }}>
-                          Below are the details for the candidates
-                        </p>
+                        // <p
+                        //   style={{
+                        //     color: "#475467",
+                        //     fontSize: 14,
+                        //     fontWeight: 400,
+                        //   }}>
+                        //   Below are the details for the candidates
+                        // </p>
                       </div>
                       <Button
                         size="small"
