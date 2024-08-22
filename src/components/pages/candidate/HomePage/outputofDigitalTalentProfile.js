@@ -316,7 +316,7 @@ export const OutputofDigitalTalentProfile = () => {
             <Card className="p-4 my-4">
               <div>
                 <p style={{ color: "#008080", fontSize: 18, fontWeight: 500 }}>
-                  Candidate’s Preference Form
+                  My Job Preferences
                 </p>
               </div>
               <div>
