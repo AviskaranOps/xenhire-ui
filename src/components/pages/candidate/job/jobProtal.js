@@ -280,7 +280,7 @@ export const JobPortal = () => {
                       fontSize: 22,
                       fontWeight: 700,
                     }}>
-                    Job for you
+                    Jobs Summary
                   </p>
                 </div>
                 <div className="py-5 grid grid-flow-col gap-8 justify-between items-center">
