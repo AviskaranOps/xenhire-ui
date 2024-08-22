@@ -122,12 +122,12 @@ export const HomePage = () => {
             <div className="p-8">
               <div>
                 <p style={{ color: "#101828", fontWeight: 600, fontSize: 20 }}>
-                  Complete all steps to create a job
+                  Dashboard
                 </p>
-                <p style={{ color: "#475467", fontSize: 16 }}>
-                  Complete all the steps to generate a job offer for the
-                  candidate.
-                </p>
+                // <p style={{ color: "#475467", fontSize: 16 }}>
+                //   Complete all the steps to generate a job offer for the
+                //   candidate.
+                // </p>
                 <Card
                   sx={{
                     boxShadow: 0,
@@ -241,7 +241,7 @@ export const HomePage = () => {
                       </div>
                       <div className="w-full">
                         <p style={{ color: "#101828", fontSize: 14 }}>
-                          Profile completion
+                          Profile Completion
                         </p>
                         <Box
                           sx={{
@@ -318,7 +318,7 @@ export const HomePage = () => {
                                 fontSize: 14,
                                 fontWeight: 500,
                               }}>
-                              Percantage
+                              Percentage
                             </p>
                           </div>
                           {profileCompetition?.map((row, index) => {
@@ -370,7 +370,7 @@ export const HomePage = () => {
                       onClick={() => {
                         navigate("/candidate");
                       }}>
-                      Update DTP Description
+                      Update Digital Talent Profile(DTP)
                     </Button>
 
                     <Button
@@ -384,7 +384,7 @@ export const HomePage = () => {
                       onClick={() => {
                         navigate("/OutputofDigitalTalentProfile");
                       }}>
-                      Access DTP Description
+                      Access Digital Talent Profile(DTP)
                     </Button>
                   </div>
                 </Card>
@@ -556,12 +556,12 @@ export const HomePage = () => {
               {/* Actions need to be taken */}
               <div className="py-5">
                 <p style={{ color: "#101828", fontWeight: 600, fontSize: 20 }}>
-                  Total Jobs
+                  Jobs Summary
                 </p>
-                <p style={{ color: "#475467", fontSize: 16 }}>
-                  Please review and complete the following actions that are
-                  currently pending
-                </p>
+                // <p style={{ color: "#475467", fontSize: 16 }}>
+                //   Please review and complete the following actions that are
+                //   currently pending
+                // </p>
                 <div className="grid grid-cols-3 gap-5 mt-5">
                   <Card sx={{ borderRadius: 5 }}>
                     <CardContent>
