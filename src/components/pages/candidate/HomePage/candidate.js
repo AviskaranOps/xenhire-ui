@@ -180,12 +180,12 @@ export const Candidate = () => {
             <div className="p-8">
               <div>
                 <p style={{ color: "#101828", fontWeight: 600, fontSize: 20 }}>
-                  Welcome to Our Talent Profile Creation
+                  Talent Profile Summary
                 </p>
-                <p style={{ color: "#475467", fontSize: 16 }}>
-                  Craft your personalized talent profile now and let your skills
-                  shine globally.
-                </p>
+                // <p style={{ color: "#475467", fontSize: 16 }}>
+                //   Craft your personalized talent profile now and let your skills
+                //   shine globally.
+                // </p>
                 <div className="py-4 flex gap-6">
                   <div
                     className="w-28 h-28 rounded-full "
@@ -275,7 +275,7 @@ export const Candidate = () => {
                 <div className="flex w-full py-2">
                   <div className="w-full">
                     <p style={{ color: "#101828", fontSize: 14 }}>
-                      Profile completion
+                      Profile Completion
                     </p>
                     <Box sx={{ display: "flex", alignItems: "center" }}>
                       <Box sx={{ width: "50%", mr: 1 }}>
@@ -304,19 +304,19 @@ export const Candidate = () => {
                       onClick={() => {
                         navigate("/OutputofDigitalTalentProfile");
                       }}>
-                      Access DTP Description
+                      Access Digital Talent Profile(DTP)
                     </Button>
                   </div>
                 </div>
               </div>
               <div className="py-10">
                 <p style={{ color: "#101828", fontWeight: 600, fontSize: 20 }}>
-                  Complete all forms and assessments to begin
+                  Details
                 </p>
-                <p style={{ color: "#475467", fontSize: 16 }}>
-                  Please fill out all the necessary forms and complete the
-                  required assessments to get started
-                </p>
+                // <p style={{ color: "#475467", fontSize: 16 }}>
+                //   Please fill out all the necessary forms and complete the
+                //   required assessments to get started
+                // </p>
                 {/* card */}
                 <div className="grid grid-cols-2 gap-5 mt-5">
                   <Card sx={{ borderRadius: 5 }}>
@@ -373,13 +373,13 @@ export const Candidate = () => {
                                 fontWeight: 600,
                                 fontSize: 20,
                               }}>
-                              Candidate Form
+                              Candidate Details
                             </p>
-                            <p style={{ color: "#475467", fontSize: 16 }}>
-                              This is the first step in creating your DTP.
-                              <br /> After completing this, you can proceed with
-                              the other forms.
-                            </p>
+                            // <p style={{ color: "#475467", fontSize: 16 }}>
+                            //   This is the first step in creating your DTP.
+                            //   <br /> After completing this, you can proceed with
+                            //   the other forms.
+                            // </p>
                           </div>
                         </div>
                       </div>
@@ -455,13 +455,13 @@ export const Candidate = () => {
                                 fontWeight: 600,
                                 fontSize: 20,
                               }}>
-                              Preference Form
+                              My Job Preferences
                             </p>
-                            <p style={{ color: "#475467", fontSize: 16 }}>
-                              This is the first step in creating your DTP.
-                              <br /> After completing this, you can proceed with
-                              the other forms.
-                            </p>
+                            // <p style={{ color: "#475467", fontSize: 16 }}>
+                            //   This is the first step in creating your DTP.
+                            //   <br /> After completing this, you can proceed with
+                            //   the other forms.
+                            // </p>
                           </div>
                         </div>
                       </div>
@@ -537,11 +537,11 @@ export const Candidate = () => {
                               }}>
                               Value Assessment
                             </p>
-                            <p style={{ color: "#475467", fontSize: 16 }}>
-                              This is the first step in creating your DTP.
-                              <br /> After completing this, you can proceed with
-                              the other forms.
-                            </p>
+                            // <p style={{ color: "#475467", fontSize: 16 }}>
+                            //   This is the first step in creating your DTP.
+                            //   <br /> After completing this, you can proceed with
+                            //   the other forms.
+                            // </p>
                           </div>
                         </div>
                       </div>
@@ -621,11 +621,11 @@ export const Candidate = () => {
                               }}>
                               Talent Spectrum Analysis
                             </p>
-                            <p style={{ color: "#475467", fontSize: 16 }}>
-                              This is the first step in creating your DTP.
-                              <br /> After completing this, you can proceed with
-                              the other forms.
-                            </p>
+                            // <p style={{ color: "#475467", fontSize: 16 }}>
+                            //   This is the first step in creating your DTP.
+                            //   <br /> After completing this, you can proceed with
+                            //   the other forms.
+                            // </p>
                           </div>
                         </div>
                       </div>
