@@ -287,7 +287,7 @@ export const PreferenceForm = () => {
             <form className="p-8" onSubmit={onWorkPrefrenceSumnit}>
               <div className="grid grid-flow-row mt-5">
                 <p style={{ color: "#101828", fontSize: 22, fontWeight: 600 }}>
-                  Candidate’s Preference Form
+                  My Job Preferences
                 </p>
                 <p
                   style={{
